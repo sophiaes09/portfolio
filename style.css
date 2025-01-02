@@ -1075,6 +1075,270 @@ h1 {
   }
 }
 
+/******* tema 4 - side 2 *******/
+@media (min-width: 300px) and (max-width: 600px) {
+  .menu_tema4 {
+    margin: 0 30px;
+  }
+}
+@media (min-width: 300px) {
+  .magazine {
+    display: block;
+    width: 100%;
+  }
+  .page_left .page_right {
+    width: 100%;
+    height: auto;
+  }
+  .page_left .page_right {
+    width: 210mm;
+    height: 297mm;
+    background-color: white;
+    overflow: hidden;
+  }
+  .page_left {
+    border-right: 1px solid #ddd;
+    width: 80mm;
+    height: 180mm;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    padding-left: 1rem;
+  }
+  .page_right_color4 {
+    background-color: #bababa;
+  }
+  .page_right {
+    border-left: 1px solid #ddd;
+    width: 84mm;
+    height: 190mm;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  }
+
+  .h2_tema4side2venstre_1 {
+    position: relative;
+    top: 30px;
+    padding-right: 1rem;
+    color: rgb(0, 0, 0);
+  }
+  .billede1_venstre_tema4 {
+    position: relative;
+    top: 30px;
+    padding-right: 1rem;
+  }
+  .p_tema4side2_1 {
+    position: relative;
+    top: 70px;
+    text-align: center;
+    background-color: #f59bc0;
+    padding-block: 3rem;
+    margin-left: -15px;
+  }
+
+  .h2_tema4side2højre_1 {
+    position: relative;
+    top: 30px;
+    padding-left: 1rem;
+  }
+  .p_tema4side2højre_1 {
+    position: relative;
+    top: 30px;
+    padding-left: 1rem;
+  }
+  .h2_tema4side2højre_2 {
+    position: relative;
+    top: 40px;
+    padding-left: 1rem;
+  }
+  .billede2_højre_tema4 {
+    position: relative;
+    top: 40px;
+  }
+  .h2_tema4side2højre_3 {
+    position: relative;
+    top: 50px;
+    padding-left: 1rem;
+  }
+  .p_tema4side2højre_2 {
+    position: relative;
+    top: 50px;
+    padding-left: 1rem;
+  }
+}
+
+@media (min-width: 600px) {
+  .magazine {
+    display: block;
+    width: 100%;
+  }
+  .page_left .page_right {
+    width: 100%;
+    height: auto;
+  }
+  .page_left .page_right {
+    width: 210mm;
+    height: 297mm;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    overflow: hidden;
+  }
+  .page_left {
+    border-right: 1px solid #ddd; /* Skab visuel adskillelse */
+    width: 130mm;
+    height: 230mm;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    padding-left: 1rem;
+  }
+  .page_right_color4 {
+    background-color: #bababa;
+  }
+  .page_right {
+    border-left: 1px solid #ddd; /* Skab visuel adskillelse */
+    width: 134mm;
+    height: 210mm;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  }
+
+  .h2_tema4side2venstre_1 {
+    position: relative;
+    top: 30px;
+    padding-right: 1rem;
+    color: rgb(0, 0, 0);
+  }
+  .billede1_venstre_tema4 {
+    position: relative;
+    top: 30px;
+    padding-right: 1rem;
+  }
+  .p_tema4side2_1 {
+    position: relative;
+    top: 70px;
+    text-align: center;
+    background-color: #f59bc0;
+    padding-block: 3rem;
+    margin-left: -15px;
+  }
+
+  .h2_tema4side2højre_1 {
+    position: relative;
+    top: 30px;
+    padding-left: 1rem;
+  }
+  .p_tema4side2højre_1 {
+    position: relative;
+    top: 30px;
+    padding-left: 1rem;
+  }
+  .h2_tema4side2højre_2 {
+    position: relative;
+    top: 40px;
+    padding-left: 1rem;
+  }
+  .billede2_højre_tema4 {
+    position: relative;
+    top: 40px;
+  }
+  .h2_tema4side2højre_3 {
+    position: relative;
+    top: 50px;
+    padding-left: 1rem;
+  }
+  .p_tema4side2højre_2 {
+    position: relative;
+    top: 50px;
+    padding-left: 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .magazine {
+    display: flex;
+    justify-content: center;
+    gap: 13px;
+    padding: 20px;
+    height: 100vh;
+    align-items: center;
+    aspect-ratio: 210 / 297;
+    width: 100%;
+  }
+  .page_left .page_right {
+    width: 210mm;
+    height: 297mm;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    overflow: hidden;
+  }
+  .page_left {
+    border-right: 1px solid #ddd; /* Skab visuel adskillelse */
+    width: 165mm;
+    height: 297mm;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    padding-left: 1rem;
+  }
+  .page_right_color4 {
+    background-color: #bababa;
+  }
+  .page_right {
+    border-left: 1px solid #ddd; /* Skab visuel adskillelse */
+    width: 165mm;
+    height: 297mm;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  }
+
+  .h2_tema4side2venstre_1 {
+    position: relative;
+    top: 200px;
+    padding-right: 1rem;
+    color: rgb(0, 0, 0);
+  }
+  .billede1_venstre_tema4 {
+    position: relative;
+    top: 220px;
+    padding-right: 1rem;
+    max-width: 500px;
+  }
+  .p_tema4side2_1 {
+    position: relative;
+    top: 250px;
+    text-align: center;
+    background-color: #f59bc0;
+    padding-block: 5rem;
+    margin-left: -15px;
+    font-size: 1.3rem;
+  }
+
+  .h2_tema4side2højre_1 {
+    position: relative;
+    top: 200px;
+    padding-left: 1rem;
+  }
+  .p_tema4side2højre_1 {
+    position: relative;
+    top: 200px;
+    padding-left: 1rem;
+  }
+  .h2_tema4side2højre_2 {
+    position: relative;
+    top: 260px;
+    padding-left: 1rem;
+  }
+  .billede2_højre_tema4 {
+    position: relative;
+    top: 270px;
+  }
+  .h2_tema4side2højre_3 {
+    position: relative;
+    top: 320px;
+    padding-left: 1rem;
+  }
+  .p_tema4side2højre_2 {
+    position: relative;
+    top: 320px;
+    padding-left: 1rem;
+    text-decoration: none;
+  }
+}
+
 /********* tema 4 - side 3 *******/
 @media (min-width: 300px) {
   .billede1_tema4_side3 {
