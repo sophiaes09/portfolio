@@ -113,10 +113,6 @@ h1 {
   color: white;
 }
 
-p {
-  position: absolute;
-  top: 50px;
-}
 /* 
 @media (max-width: 768px) {
   .forside_billede {
@@ -147,20 +143,21 @@ p {
     width: 210mm;
     height: 297mm;
     background-color: white;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 20px;
     overflow: hidden;
   }
   .page_left {
     border-right: 1px solid #ddd;
     width: 80mm;
     height: 190mm;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    padding-left: 1rem;
   }
   .page_right {
     border-left: 1px solid #ddd;
-    width: 80mm;
+    width: 84mm;
     height: 190mm;
     background-color: #f59bc0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
   }
 
   .h2_tema2side2venstre_1 {
@@ -243,12 +240,15 @@ p {
     border-right: 1px solid #ddd; /* Skab visuel adskillelse */
     width: 130mm;
     height: 210mm;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    padding-left: 1rem;
   }
   .page_right {
     border-left: 1px solid #ddd; /* Skab visuel adskillelse */
     width: 130mm;
-    height: 190mm;
+    height: 210mm;
     background-color: #f59bc0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
   }
 
   .h2_tema2side2venstre_1 {
@@ -325,7 +325,7 @@ p {
     width: 210mm;
     height: 297mm;
     background-color: white;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
     padding: 20px;
     overflow: hidden;
   }
@@ -333,12 +333,15 @@ p {
     border-right: 1px solid #ddd; /* Skab visuel adskillelse */
     width: 165mm;
     height: 297mm;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    padding-left: 1rem;
   }
   .page_right {
     border-left: 1px solid #ddd; /* Skab visuel adskillelse */
     width: 165mm;
     height: 297mm;
     background-color: #f59bc0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
   }
 
   .h2_tema2side2venstre_1 {
@@ -397,5 +400,121 @@ p {
     position: relative;
     top: 380px;
     padding-left: 1rem;
+  }
+}
+
+/********* tema 2 - side 1 *******/
+@media (min-width: 300px) {
+  .magazine {
+    display: block;
+    gap: 13px;
+    padding: 20px;
+    height: 100vh;
+    align-items: center;
+    width: 100%;
+  }
+  .page_midt {
+    width: 80mm;
+    height: 297mm;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    overflow: hidden;
+  }
+  .h1_tema2_side1 {
+    position: relative;
+    top: 50px;
+    text-align: center;
+    font-size: 2.3rem;
+  }
+  .billede1_tema2_forside {
+    position: relative;
+    top: 150px;
+  }
+  .p_tema2_side1 {
+    position: relative;
+    top: 160px;
+  }
+}
+
+@media (min-width: 600px) {
+  .magazine {
+    display: flex;
+    justify-content: center;
+    gap: 13px;
+    padding: 20px;
+    height: 100vh;
+    align-items: center;
+    aspect-ratio: 210 / 297;
+    width: 100%;
+  }
+  .page_midt {
+    width: 130mm;
+    height: 297mm;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    overflow: hidden;
+  }
+  .h1_tema2_side1 {
+    position: relative;
+    top: 220px;
+    text-align: center;
+    font-size: 3rem;
+  }
+  .grid_tema2forside {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    top: 400px;
+    gap: 30px;
+    padding-inline: 2rem;
+  }
+  .p_tema2_side1 {
+    position: relative;
+    top: -20px;
+  }
+  .billede1_tema2_forside {
+    position: relative;
+    top: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .magazine {
+    display: flex;
+    justify-content: center;
+    gap: 13px;
+    padding: 20px;
+    height: 100vh;
+    align-items: center;
+    aspect-ratio: 210 / 297;
+    width: 100%;
+  }
+  .page_midt {
+    width: 165mm;
+    height: 297mm;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    overflow: hidden;
+  }
+  .h1_tema2_side1 {
+    position: relative;
+    top: 220px;
+    text-align: center;
+    font-size: 3rem;
+  }
+  .grid_tema2forside {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    top: 400px;
+    gap: 30px;
+    padding-inline: 2rem;
+  }
+  .p_tema2_side1 {
+    position: relative;
+    top: -20px;
   }
 }
