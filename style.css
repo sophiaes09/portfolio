@@ -1074,3 +1074,23 @@ h1 {
     width: 230px;
   }
 }
+
+/********* tema 4 - side 3 *******/
+@media (min-width: 300px) {
+  .billede1_tema4_side3 {
+    position: relative;
+    top: 80px;
+  }
+}
+@media (min-width: 600px) {
+  .billede1_tema4_side3 {
+    position: relative;
+    top: 100px;
+  }
+}
+@media (min-width: 768px) {
+  .billede1_tema4_side3 {
+    position: relative;
+    top: 300px;
+  }
+}
