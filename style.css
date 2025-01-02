@@ -556,3 +556,10 @@ h1 {
     top: 300px;
   }
 }
+
+/******* tema 3 - side 1 ******/
+@media (min-width: 768px) {
+  .billede1_tema3_forside {
+    width: 230px;
+  }
+}
