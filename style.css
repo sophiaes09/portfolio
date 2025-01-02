@@ -558,7 +558,125 @@ h1 {
 }
 
 /******* tema 3 - side 1 ******/
+@media (min-width: 300px) {
+  .magazine {
+    display: block;
+    gap: 13px;
+    padding: 20px;
+    height: 100vh;
+    align-items: center;
+    width: 100%;
+  }
+  .page_midt {
+    width: 80mm;
+    height: 297mm;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    overflow: hidden;
+  }
+  .h1_tema3_side1 {
+    position: relative;
+    top: 50px;
+    text-align: center;
+    font-size: 2.3rem;
+  }
+  .billede1_tema3_forside {
+    position: relative;
+    top: 100px;
+    width: 190px;
+  }
+  .billedecentrum_tema3forside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .p_tema3_side1 {
+    position: relative;
+    top: 110px;
+  }
+}
+
+@media (min-width: 600px) {
+  .magazine {
+    display: flex;
+    justify-content: center;
+    gap: 13px;
+    padding: 20px;
+    height: 100vh;
+    align-items: center;
+    aspect-ratio: 210 / 297;
+    width: 100%;
+  }
+  .page_midt {
+    width: 130mm;
+    height: 297mm;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    overflow: hidden;
+  }
+  .h1_tema3_side1 {
+    position: relative;
+    top: 200px;
+    text-align: center;
+    font-size: 2.8rem;
+  }
+  .grid_tema3forside {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    top: 200px;
+    gap: 30px;
+    padding-inline: 2rem;
+  }
+  .p_tema3_side1 {
+    position: relative;
+    top: 30px;
+  }
+  .billede1_tema3_forside {
+    position: relative;
+    top: 30px;
+  }
+}
+
 @media (min-width: 768px) {
+  .magazine {
+    display: flex;
+    justify-content: center;
+    gap: 13px;
+    padding: 20px;
+    height: 100vh;
+    align-items: center;
+    aspect-ratio: 210 / 297;
+    width: 100%;
+  }
+  .page_midt {
+    width: 165mm;
+    height: 297mm;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    overflow: hidden;
+  }
+  .h1_tema3_side1 {
+    position: relative;
+    top: 220px;
+    text-align: center;
+    font-size: 3rem;
+  }
+  .grid_tema3forside {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    top: 350px;
+    gap: 30px;
+    padding-inline: 2rem;
+  }
+  .p_tema3_side1 {
+    position: relative;
+    top: 10px;
+  }
   .billede1_tema3_forside {
     width: 230px;
   }
