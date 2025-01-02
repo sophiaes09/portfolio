@@ -290,8 +290,10 @@ h1 {
     border-left: 1px solid #ddd;
     width: 84mm;
     height: 190mm;
-    background-color: #f59bc0;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  }
+  .page_right_color {
+    background-color: #f59bc0;
   }
 
   .h2_tema2side2venstre_1 {
@@ -381,8 +383,10 @@ h1 {
     border-left: 1px solid #ddd; /* Skab visuel adskillelse */
     width: 130mm;
     height: 210mm;
-    background-color: #f59bc0;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  }
+  .page_right_color {
+    background-color: #f59bc0;
   }
 
   .h2_tema2side2venstre_1 {
@@ -474,8 +478,10 @@ h1 {
     border-left: 1px solid #ddd; /* Skab visuel adskillelse */
     width: 165mm;
     height: 297mm;
-    background-color: #f59bc0;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  }
+  .page_right_color {
+    background-color: #f59bc0;
   }
 
   .h2_tema2side2venstre_1 {
@@ -679,5 +685,247 @@ h1 {
   }
   .billede1_tema3_forside {
     width: 230px;
+  }
+}
+
+/********* tema 3 - side 2 *******/
+@media (min-width: 300px) {
+  .magazine {
+    display: block;
+    width: 100%;
+  }
+  .page_left .page_right {
+    width: 100%;
+    height: auto;
+  }
+  .page_left .page_right {
+    width: 210mm;
+    height: 297mm;
+    background-color: white;
+    overflow: hidden;
+  }
+  .page_left {
+    border-right: 1px solid #ddd;
+    width: 80mm;
+    height: 260mm;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    padding-left: 1rem;
+  }
+  .page_left_color3 {
+    background-color: #2b2b2b;
+  }
+  .page_right {
+    border-left: 1px solid #ddd;
+    width: 84mm;
+    height: 190mm;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  }
+
+  .h2_tema3side2venstre_1 {
+    position: relative;
+    top: 30px;
+    padding-right: 1rem;
+    color: white;
+  }
+  .billede1_venstre_tema3 {
+    position: relative;
+    top: 30px;
+    padding-right: 1rem;
+  }
+  .h2_tema3side2venstre_2 {
+    position: relative;
+    top: 70px;
+    padding-right: 1rem;
+    color: white;
+  }
+  .grid_tema3_side2venstre {
+    position: relative;
+    top: 80px;
+    padding-right: 1rem;
+  }
+
+  .h2_tema3side2højre_1 {
+    position: relative;
+    top: 30px;
+    padding-left: 1rem;
+  }
+  .billede4_højre_tema3 {
+    position: relative;
+    top: 30px;
+  }
+  .h2_tema3side2højre_2 {
+    position: relative;
+    top: 70px;
+    padding-left: 1rem;
+  }
+  .billede5_højre_tema3 {
+    position: relative;
+    top: 80px;
+  }
+}
+
+@media (min-width: 600px) {
+  .magazine {
+    display: block;
+    width: 100%;
+  }
+  .page_left .page_right {
+    width: 100%;
+    height: auto;
+  }
+  .page_left .page_right {
+    width: 210mm;
+    height: 297mm;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    overflow: hidden;
+  }
+  .page_left {
+    border-right: 1px solid #ddd; /* Skab visuel adskillelse */
+    width: 130mm;
+    height: 210mm;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    padding-left: 1rem;
+  }
+  .page_left_color3 {
+    background-color: #2b2b2b;
+  }
+  .page_right {
+    border-left: 1px solid #ddd; /* Skab visuel adskillelse */
+    width: 134mm;
+    height: 210mm;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  }
+
+  .h2_tema3side2venstre_1 {
+    position: relative;
+    top: 30px;
+    padding-right: 1rem;
+    color: white;
+  }
+  .billede1_venstre_tema3 {
+    position: relative;
+    top: 30px;
+    padding-right: 1rem;
+  }
+  .h2_tema3side2venstre_2 {
+    position: relative;
+    top: 70px;
+    padding-right: 1rem;
+    color: white;
+  }
+  .grid_tema3_side2venstre {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    top: 80px;
+    padding-right: 1rem;
+  }
+  .billede2_venstre_tema3 {
+    width: 284px;
+  }
+
+  .h2_tema3side2højre_1 {
+    position: relative;
+    top: 30px;
+    padding-left: 1rem;
+  }
+  .billede4_højre_tema3 {
+    position: relative;
+    top: 30px;
+  }
+  .h2_tema3side2højre_2 {
+    position: relative;
+    top: 70px;
+    padding-left: 1rem;
+  }
+  .billede5_højre_tema3 {
+    position: relative;
+    top: 80px;
+  }
+}
+
+@media (min-width: 768px) {
+  .magazine {
+    display: flex;
+    justify-content: center;
+    gap: 13px;
+    padding: 20px;
+    height: 100vh;
+    align-items: center;
+    aspect-ratio: 210 / 297;
+    width: 100%;
+  }
+  .page_left .page_right {
+    width: 210mm;
+    height: 297mm;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    overflow: hidden;
+  }
+  .page_left {
+    border-right: 1px solid #ddd; /* Skab visuel adskillelse */
+    width: 165mm;
+    height: 297mm;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    padding-left: 1rem;
+  }
+  .page_left_color3 {
+    background-color: #2b2b2b;
+  }
+  .page_right {
+    border-left: 1px solid #ddd; /* Skab visuel adskillelse */
+    width: 165mm;
+    height: 297mm;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  }
+
+  .h2_tema3side2venstre_1 {
+    position: relative;
+    top: 200px;
+    padding-right: 1rem;
+    color: white;
+  }
+  .billede1_venstre_tema3 {
+    position: relative;
+    top: 210px;
+    padding-right: 1rem;
+  }
+  .h2_tema3side2venstre_2 {
+    position: relative;
+    top: 210px;
+    padding-right: 1rem;
+    color: white;
+  }
+  .grid_tema3_side2venstre {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    top: 220px;
+    padding-right: 1rem;
+  }
+  .billede2_venstre_tema3 {
+    width: 284px;
+  }
+
+  .h2_tema3side2højre_1 {
+    position: relative;
+    top: 200px;
+    padding-left: 1rem;
+  }
+  .billede4_højre_tema3 {
+    position: relative;
+    top: 210px;
+  }
+  .h2_tema3side2højre_2 {
+    position: relative;
+    top: 290px;
+    padding-left: 1rem;
+  }
+  .billede5_højre_tema3 {
+    position: relative;
+    top: 300px;
   }
 }
