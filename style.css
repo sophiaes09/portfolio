@@ -2,12 +2,17 @@ img {
   width: 100%;
 }
 
+/******* fonte *******/
+/* font-family: "Bodoni Moda", serif; = Didot
+font-family: "EB Garamond", serif; = Apple Garamont
+font-family: "Playfair Display", serif; = Vogue*/
+
 /******** menu ********/
 .menu {
-  background-color: #9bf5a0; /* Grøn baggrund */
-  display: flex; /* Flex container for centrering */
-  justify-content: center; /* Centerer elementer horisontalt */
-  padding: 13px 0; /* Lidt plads til højden */
+  background-color: #9bf5a0;
+  display: flex;
+  justify-content: center;
+  padding: 13px 0;
   position: relative;
 }
 
@@ -15,8 +20,9 @@ img {
   color: rgb(0, 0, 0);
   text-decoration: none;
   margin: 0 45px;
-  font-size: 15px; /* Gør teksten større */
+  font-size: 15px;
   transition: color 0.15s ease;
+  font-family: "Playfair Display", serif;
 }
 
 .menu_punkt:hover {
@@ -25,6 +31,17 @@ img {
 
 .menu_punkt.active {
   color: #f54990;
+}
+
+/******* generelt ******/
+h1 {
+  font-family: "Bodoni Moda", serif;
+}
+h2 {
+  font-family: "Bodoni Moda", serif;
+}
+p {
+  font-family: "EB Garamond", serif;
 }
 
 /******* pil - knap ********/
@@ -50,6 +67,7 @@ img {
 .tekst_pil {
   font-size: 16px;
   color: black;
+  font-family: "EB Garamond", serif;
 }
 
 .pil:hover {
@@ -128,6 +146,122 @@ h1 {
     font-size: 16px;
   }
 } */
+
+/********* tema 2 - side 1 *******/
+@media (min-width: 300px) {
+  .magazine {
+    display: block;
+    gap: 13px;
+    padding: 20px;
+    height: 100vh;
+    align-items: center;
+    width: 100%;
+  }
+  .page_midt {
+    width: 80mm;
+    height: 297mm;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    overflow: hidden;
+  }
+  .h1_tema2_side1 {
+    position: relative;
+    top: 50px;
+    text-align: center;
+    font-size: 2.3rem;
+  }
+  .billede1_tema2_forside {
+    position: relative;
+    top: 150px;
+  }
+  .p_tema2_side1 {
+    position: relative;
+    top: 160px;
+  }
+}
+
+@media (min-width: 600px) {
+  .magazine {
+    display: flex;
+    justify-content: center;
+    gap: 13px;
+    padding: 20px;
+    height: 100vh;
+    align-items: center;
+    aspect-ratio: 210 / 297;
+    width: 100%;
+  }
+  .page_midt {
+    width: 130mm;
+    height: 297mm;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    overflow: hidden;
+  }
+  .h1_tema2_side1 {
+    position: relative;
+    top: 40px;
+    text-align: center;
+    font-size: 3rem;
+  }
+  .grid_tema2forside {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    top: 200px;
+    gap: 30px;
+    padding-inline: 2rem;
+  }
+  .p_tema2_side1 {
+    position: relative;
+    top: -20px;
+  }
+  .billede1_tema2_forside {
+    position: relative;
+    top: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .magazine {
+    display: flex;
+    justify-content: center;
+    gap: 13px;
+    padding: 20px;
+    height: 100vh;
+    align-items: center;
+    aspect-ratio: 210 / 297;
+    width: 100%;
+  }
+  .page_midt {
+    width: 165mm;
+    height: 297mm;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    overflow: hidden;
+  }
+  .h1_tema2_side1 {
+    position: relative;
+    top: 220px;
+    text-align: center;
+    font-size: 3rem;
+  }
+  .grid_tema2forside {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    top: 400px;
+    gap: 30px;
+    padding-inline: 2rem;
+  }
+  .p_tema2_side1 {
+    position: relative;
+    top: -20px;
+  }
+}
 
 /******** tema 2 - side 2 ********/
 @media (min-width: 300px) {
@@ -403,118 +537,22 @@ h1 {
   }
 }
 
-/********* tema 2 - side 1 *******/
+/********* tema 2 - side 3 *******/
 @media (min-width: 300px) {
-  .magazine {
-    display: block;
-    gap: 13px;
-    padding: 20px;
-    height: 100vh;
-    align-items: center;
-    width: 100%;
-  }
-  .page_midt {
-    width: 80mm;
-    height: 297mm;
-    background-color: white;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
-    padding: 20px;
-    overflow: hidden;
-  }
-  .h1_tema2_side1 {
+  .billede1_tema2_side3 {
     position: relative;
-    top: 50px;
-    text-align: center;
-    font-size: 2.3rem;
-  }
-  .billede1_tema2_forside {
-    position: relative;
-    top: 150px;
-  }
-  .p_tema2_side1 {
-    position: relative;
-    top: 160px;
+    top: 80px;
   }
 }
-
 @media (min-width: 600px) {
-  .magazine {
-    display: flex;
-    justify-content: center;
-    gap: 13px;
-    padding: 20px;
-    height: 100vh;
-    align-items: center;
-    aspect-ratio: 210 / 297;
-    width: 100%;
-  }
-  .page_midt {
-    width: 130mm;
-    height: 297mm;
-    background-color: white;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
-    padding: 20px;
-    overflow: hidden;
-  }
-  .h1_tema2_side1 {
+  .billede1_tema2_side3 {
     position: relative;
-    top: 220px;
-    text-align: center;
-    font-size: 3rem;
-  }
-  .grid_tema2forside {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    position: relative;
-    top: 400px;
-    gap: 30px;
-    padding-inline: 2rem;
-  }
-  .p_tema2_side1 {
-    position: relative;
-    top: -20px;
-  }
-  .billede1_tema2_forside {
-    position: relative;
-    top: 0;
+    top: 100px;
   }
 }
-
 @media (min-width: 768px) {
-  .magazine {
-    display: flex;
-    justify-content: center;
-    gap: 13px;
-    padding: 20px;
-    height: 100vh;
-    align-items: center;
-    aspect-ratio: 210 / 297;
-    width: 100%;
-  }
-  .page_midt {
-    width: 165mm;
-    height: 297mm;
-    background-color: white;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
-    padding: 20px;
-    overflow: hidden;
-  }
-  .h1_tema2_side1 {
+  .billede1_tema2_side3 {
     position: relative;
-    top: 220px;
-    text-align: center;
-    font-size: 3rem;
-  }
-  .grid_tema2forside {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    position: relative;
-    top: 400px;
-    gap: 30px;
-    padding-inline: 2rem;
-  }
-  .p_tema2_side1 {
-    position: relative;
-    top: -20px;
+    top: 300px;
   }
 }
