@@ -33,6 +33,60 @@ font-family: "Playfair Display", serif; = Vogue*/
   color: #f54990;
 }
 
+/********* Burger Menu ********/
+.burger-menu {
+  position: fixed;
+  top: 80px;
+  right: 20px;
+  width: 30px;
+  cursor: pointer;
+}
+
+.burger-menu div {
+  width: 100%;
+  height: 3px;
+  background-color: #000000;
+  margin: 6px 0;
+  transition: 0.3s;
+}
+
+/******** Dropdown Box ********/
+.menu-box {
+  position: fixed;
+  top: 120px;
+  right: 20px;
+  width: 200px;
+  padding: 20px;
+  background-color: #9bf5a0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  display: none;
+  z-index: 2;
+}
+
+.menu-box ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu-box ul li {
+  margin: 10px 0;
+}
+
+.menu-box ul li a {
+  text-decoration: none;
+  color: black;
+  font-family: "Playfair Display", serif;
+  font-size: 14px;
+}
+
+.menu-box ul li a:hover {
+  color: #f54990;
+}
+
+.menu-box ul li a.active {
+  color: #f54990;
+}
+
 /******* generelt ******/
 h1 {
   font-family: "Bodoni Moda", serif;
