@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <title>Portfolio - tema 2</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="layout.css">
+</head>
+
+<body>
+    <header>
+        <nav class="menu">
+            <a href="tema2_side1.html" class="menu_punkt active">INTRO</a>
+            <a href="tema2_side2.html" class="menu_punkt">DOKUMENTATION</a>
+            <a href="tema2_side3.html" class="menu_punkt">FÆRDIGT PRODUKT</a>
+        </nav>
+
+        <!-- Burger Menu Button - Chatgpt -->
+        <div class="burger-menu" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+
+        <!-- Dropdown Box - Chatgpt -->
+        <div class="menu-box" id="menuBox">
+            <ul>
+                <li><a href="index.html">FORSIDE</a></li>
+                <li><a href="indholdsfortegnelse.html">INDHOLDSFORTEGNELSE</a></li>
+                <li><a href="tema1_side1.html" class="active">TEMA 1 - INTRO</a></li>
+                <li><a href="tema2_side1.html">TEMA 2 - WEB</a></li>
+                <li><a href="tema3_side1.html">TEMA 3 - UX/UI</a></li>
+                <li><a href="tema4_side1.html">TEMA 4 - ANIMATION</a></li>
+                <li><a href="tema5_side1.html">TEMA 5 - INDHOLD</a></li>
+                <li><a href="om_mig.html">OM SOPHIA SPARSØ</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <div class="grid_pil">
+            <div class="magazine">
+                <div class="page_midt">
+                    <h1 class="h1_tema2_side1">Grundlæggende Web</h1>
+                    <div class="grid_tema2forside">
+                        <img class="billede1_tema2_forside" src="billeder/tema2/Kodning_forside.png" alt="kodning">
+                        <p class="p_tema2_side1">I tema 2: grundlæggende web fik vi et mere grundlæggende funtament for
+                            uddannelsen og
+                            stiftede
+                            første bekendskab med
+                            kodning. Her lærte vi at bruge HTML og CSS, og efterfølgende at ligge vores produkt op på
+                            vores
+                            domæne med Filezilla.
+                            Vi lærte om udtrykket: “mobile-first”, grid, flex og media-quariers.
+
+                            Vi fik mere viden om de grundlæggende design principper, lærte om getaltlovene og prøvede
+                            kræfter af med styletile,
+                            moodboard, wireframes og generelle redskaber til ideudvikling.
+
+                            I dette team udviklede vi også vores studiestartsprøve.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="klik_knap">
+                <div class="tekst_pil">Read More</div>
+                <div class="pil"></div>
+            </div>
+        </div>
+    </main>
+
+    <script src="menu.js"></script>
+</body>
+
+
+</html>
