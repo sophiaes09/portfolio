@@ -201,6 +201,214 @@ h1 {
   }
 } */
 
+/****** indholdsfortegnelse ****/
+@media (min-width: 300px) {
+  .h1_if {
+    transform: rotate(270deg);
+    transform-origin: left top;
+    font-size: 9.5vw;
+    position: relative;
+    top: 420px;
+    left: -20px;
+    width: max-content;
+  }
+  .h2_if_1 {
+    position: relative;
+    top: 0px;
+    left: 80px;
+    text-align: center;
+    width: fit-content;
+    font-size: 3vw;
+  }
+  .h2_if_2 {
+    position: relative;
+    top: 120px;
+    left: 95px;
+    text-align: center;
+    width: fit-content;
+    font-size: 3vw;
+  }
+  .h2_if_3 {
+    position: relative;
+    top: 250px;
+    left: 80px;
+    text-align: center;
+    width: fit-content;
+    font-size: 3vw;
+  }
+  .h2_if_4 {
+    position: relative;
+    top: -115px;
+    left: 170px;
+    text-align: center;
+    width: fit-content;
+    font-size: 3vw;
+  }
+  .h2_if_5 {
+    position: relative;
+    top: 10px;
+    left: 170px;
+    text-align: center;
+    width: fit-content;
+    font-size: 3vw;
+  }
+}
+
+@media (min-width: 600px) {
+  .h1_if {
+    transform: rotate(270deg);
+    transform-origin: left top;
+    font-size: 8.5vw;
+    position: relative;
+    top: 450px;
+    left: -20px;
+    width: max-content;
+  }
+  .h2_if_1 {
+    position: relative;
+    top: 0px;
+    left: 130px;
+    text-align: center;
+    width: fit-content;
+    font-size: 3vw;
+  }
+  .h2_if_2 {
+    position: relative;
+    top: 120px;
+    left: 145px;
+    text-align: center;
+    width: fit-content;
+    font-size: 3vw;
+  }
+  .h2_if_3 {
+    position: relative;
+    top: 250px;
+    left: 130px;
+    text-align: center;
+    width: fit-content;
+    font-size: 3vw;
+  }
+  .h2_if_4 {
+    position: relative;
+    top: -140px;
+    left: 260px;
+    text-align: center;
+    width: fit-content;
+    font-size: 3vw;
+  }
+  .h2_if_5 {
+    position: relative;
+    top: -30px;
+    left: 265px;
+    text-align: center;
+    width: fit-content;
+    font-size: 3vw;
+  }
+}
+
+@media (min-width: 750px) {
+  .h1_if {
+    transform: rotate(270deg);
+    transform-origin: left top;
+    font-size: 6.5vw;
+    position: relative;
+    top: 600px;
+    left: -20px;
+    width: max-content;
+  }
+  .h2_if_1 {
+    position: relative;
+    top: 50px;
+    left: 130px;
+    text-align: center;
+    width: fit-content;
+    font-size: 2.5vw;
+  }
+  .h2_if_2 {
+    position: relative;
+    top: 200px;
+    left: 145px;
+    text-align: center;
+    width: fit-content;
+    font-size: 2.5vw;
+  }
+  .h2_if_3 {
+    position: relative;
+    top: 350px;
+    left: 130px;
+    text-align: center;
+    width: fit-content;
+    font-size: 2.5vw;
+  }
+  .h2_if_4 {
+    position: relative;
+    top: -125px;
+    left: 260px;
+    text-align: center;
+    width: fit-content;
+    font-size: 2.5vw;
+  }
+  .h2_if_5 {
+    position: relative;
+    top: 0px;
+    left: 260px;
+    text-align: center;
+    width: fit-content;
+    font-size: 2.5vw;
+  }
+}
+
+@media (min-width: 1050px) {
+  .h1_if {
+    transform: rotate(270deg);
+    transform-origin: left top;
+    font-size: 5.5vw;
+    position: relative;
+    top: 650px;
+    left: -20px;
+  }
+  .h2_if_1 {
+    position: relative;
+    top: 50px;
+    left: 150px;
+    text-align: center;
+    width: fit-content;
+    font-size: 2vw;
+  }
+  .h2_if_2 {
+    position: relative;
+    top: 200px;
+    left: 165px;
+    text-align: center;
+    width: fit-content;
+    font-size: 2vw;
+  }
+  .h2_if_3 {
+    position: relative;
+    top: 350px;
+    left: 150px;
+    text-align: center;
+    width: fit-content;
+    font-size: 2vw;
+  }
+  .h2_if_4 {
+    position: relative;
+    top: -125px;
+    left: 350px;
+    text-align: center;
+    width: fit-content;
+    font-size: 2vw;
+  }
+  .h2_if_5 {
+    position: relative;
+    top: 0px;
+    left: 350px;
+    text-align: center;
+    width: fit-content;
+    font-size: 2vw;
+  }
+}
+
 /********* tema 2 - side 1 *******/
 @media (min-width: 300px) {
   .magazine {

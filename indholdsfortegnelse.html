@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="layout.css">
+</head>
+
+<body>
+    <header>
+        <!-- Burger Menu Button - Chatgpt -->
+        <div class="burger-menu" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+
+        <!-- Dropdown Box - Chatgpt -->
+        <div class="menu-box" id="menuBox">
+            <ul>
+                <li><a href="index.html">FORSIDE</a></li>
+                <li><a href="indholdsfortegnelse.html">INDHOLDSFORTEGNELSE</a></li>
+                <li><a href="tema1_side1.html">TEMA 1 - INTRO</a></li>
+                <li><a href="tema2_side1.html">TEMA 2 - WEB</a></li>
+                <li><a href="tema3_side1.html" class="active">TEMA 3 - UX/UI</a></li>
+                <li><a href="tema4_side1.html">TEMA 4 - ANIMATION</a></li>
+                <li><a href="tema5_side1.html">TEMA 5 - INDHOLD</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <div class="grid_pil">
+            <div class="magazine">
+                <div class="page_left">
+                    <h1 class="h1_if">1. SEMESTER</h1>
+
+                    <div class="if_størrelse">
+                        <div class="tema1_if">
+                            <h2 class="h2_if_1">01. <br> Introuge</h2>
+                        </div>
+                        <div class="tema2_if">
+                            <h2 class="h2_if_2">02. <br> Web</h2>
+                        </div>
+                        <div class="tema3_if">
+                            <h2 class="h2_if_3">03. <br> UX/UI</h2>
+                        </div>
+                        <div class="tema4_if">
+                            <h2 class="h2_if_4">04. <br> Animation</h2>
+                        </div>
+                        <div class="tema5_if">
+                            <h2 class="h2_if_5">05. <br> Indhold</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="page_right">
+
+                </div>
+            </div>
+            <div class="klik_knap">
+                <div class="tekst_pil">Read More</div>
+                <div class="pil"></div>
+            </div>
+        </div>
+    </main>
+
+    <script src="menu.js"></script>
+</body>
+
+</html>
