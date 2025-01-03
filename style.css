@@ -1795,3 +1795,49 @@ h1 {
     top: 210px;
   }
 }
+
+/********* tema 5 - side 3 *******/
+@media (min-width: 300px) and (max-width: 600px) {
+  .menu_tema5 {
+    margin: 0 30px;
+  }
+}
+@media (min-width: 300px) {
+  .billede1_tema5_side3 {
+    position: relative;
+    top: 80px;
+    margin-left: -8px;
+  }
+  .billede2_tema5_side3 {
+    position: relative;
+    top: 80px;
+  }
+}
+@media (min-width: 600px) {
+  .billede1_tema5_side3 {
+    position: relative;
+    top: 100px;
+    margin-left: -8px;
+  }
+  .billede2_tema5_side3 {
+    position: relative;
+    top: 80px;
+  }
+}
+@media (min-width: 768px) {
+  .billede1_tema5_side3 {
+    position: relative;
+    top: 300px;
+    max-width: 550px;
+  }
+  .billede2_tema5_side3 {
+    position: relative;
+    top: 300px;
+    max-width: 550px;
+  }
+  .tema5_billedecenteret {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+}
