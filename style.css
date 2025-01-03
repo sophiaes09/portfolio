@@ -1488,3 +1488,310 @@ h1 {
     width: 200px;
   }
 }
+
+/******* tema 5 - side 2 *******/
+@media (min-width: 300px) and (max-width: 600px) {
+  .menu_tema5 {
+    margin: 0 30px;
+  }
+}
+@media (min-width: 300px) {
+  .magazine {
+    display: block;
+    width: 100%;
+  }
+  .page_left .page_right {
+    width: 100%;
+    height: auto;
+  }
+  .page_left .page_right {
+    width: 210mm;
+    height: 297mm;
+    background-color: white;
+    overflow: hidden;
+  }
+  .page_left {
+    border-right: 1px solid #ddd;
+    width: 80mm;
+    height: 200mm;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    padding-left: 1rem;
+  }
+  .page_right {
+    border-left: 1px solid #ddd;
+    width: 84mm;
+    height: 190mm;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  }
+
+  .h2_tema5side2venstre_1 {
+    position: relative;
+    top: 30px;
+    padding-right: 1rem;
+    color: rgb(0, 0, 0);
+  }
+  .billede1_venstre_tema5 {
+    position: relative;
+    top: 30px;
+    padding-right: 1rem;
+  }
+  .h2_tema5side2venstre_2 {
+    position: relative;
+    top: 30px;
+    padding-left: 1rem;
+    color: rgb(0, 0, 0);
+    background-color: #facfe1;
+    margin-left: -15px;
+    padding-top: 1rem;
+  }
+  .billede2_venstre_tema5 {
+    position: relative;
+    top: 30px;
+    background-color: #facfe1;
+  }
+  .p_tema5side2_1 {
+    position: relative;
+    top: 40px;
+    background-color: #facfe1;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+  }
+  .grid_tema5side2 {
+    background-color: #facfe1;
+    margin-left: -15px;
+  }
+
+  .h2_tema5side2højre_1 {
+    position: relative;
+    top: 30px;
+    padding-left: 1rem;
+    background-color: #bababa;
+  }
+  .billede3_højre_tema5 {
+    position: relative;
+    top: 30px;
+    background-color: #bababa;
+    padding-bottom: 2.5rem;
+  }
+  .baggrundfarve_side2tema5 {
+    background-color: #bababa;
+  }
+  .h2_tema5side2højre_2 {
+    position: relative;
+    top: 40px;
+    padding-left: 1rem;
+  }
+  .billede4_højre_tema5 {
+    position: relative;
+    top: 40px;
+  }
+}
+
+@media (min-width: 600px) {
+  .magazine {
+    display: block;
+    width: 100%;
+  }
+  .page_left .page_right {
+    width: 100%;
+    height: auto;
+  }
+  .page_left .page_right {
+    width: 210mm;
+    height: 297mm;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    overflow: hidden;
+  }
+  .page_left {
+    border-right: 1px solid #ddd; /* Skab visuel adskillelse */
+    width: 130mm;
+    height: 200mm;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    padding-left: 1rem;
+  }
+  .page_right_color4 {
+    background-color: #bababa;
+  }
+  .page_right {
+    border-left: 1px solid #ddd; /* Skab visuel adskillelse */
+    width: 134mm;
+    height: 230mm;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  }
+
+  .h2_tema5side2venstre_1 {
+    position: relative;
+    top: 30px;
+    padding-right: 1rem;
+    color: rgb(0, 0, 0);
+  }
+  .billede1_venstre_tema5 {
+    position: relative;
+    top: 30px;
+    padding-right: 1rem;
+  }
+  .h2_tema5side2venstre_2 {
+    position: relative;
+    top: 30px;
+    padding-left: 1rem;
+    color: rgb(0, 0, 0);
+    background-color: #facfe1;
+    margin-left: -15px;
+    padding-top: 1rem;
+  }
+  .billede2_venstre_tema5 {
+    position: relative;
+    top: 30px;
+    background-color: #facfe1;
+  }
+  .p_tema5side2_1 {
+    position: relative;
+    top: 40px;
+    background-color: #facfe1;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+  }
+  .grid_tema5side2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #facfe1;
+    margin-left: -15px;
+    padding-bottom: 5rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+
+  .h2_tema5side2højre_1 {
+    position: relative;
+    top: 30px;
+    padding-left: 1rem;
+    background-color: #bababa;
+  }
+  .billede3_højre_tema5 {
+    position: relative;
+    top: 30px;
+    background-color: #bababa;
+    padding-bottom: 4rem;
+  }
+  .baggrundfarve_side2tema5 {
+    background-color: #bababa;
+  }
+  .h2_tema5side2højre_2 {
+    position: relative;
+    top: 40px;
+    padding-left: 1rem;
+  }
+  .billede4_højre_tema5 {
+    position: relative;
+    top: 40px;
+  }
+}
+
+@media (min-width: 768px) {
+  .magazine {
+    display: flex;
+    justify-content: center;
+    gap: 13px;
+    padding: 20px;
+    height: 100vh;
+    align-items: center;
+    aspect-ratio: 210 / 297;
+    width: 100%;
+  }
+  .page_left .page_right {
+    width: 210mm;
+    height: 297mm;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    overflow: hidden;
+  }
+  .page_left {
+    border-right: 1px solid #ddd; /* Skab visuel adskillelse */
+    width: 165mm;
+    height: 297mm;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    padding-left: 1rem;
+  }
+  .page_right_color4 {
+    background-color: #bababa;
+  }
+  .page_right {
+    border-left: 1px solid #ddd; /* Skab visuel adskillelse */
+    width: 165mm;
+    height: 297mm;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  }
+
+  .h2_tema5side2venstre_1 {
+    position: relative;
+    top: 200px;
+    padding-right: 1rem;
+    color: rgb(0, 0, 0);
+  }
+  .billede1_venstre_tema5 {
+    position: relative;
+    top: 210px;
+    padding-right: 1rem;
+  }
+  .h2_tema5side2venstre_2 {
+    position: relative;
+    top: 230px;
+    padding-left: 1rem;
+    color: rgb(0, 0, 0);
+    background-color: #facfe1;
+    margin-left: -15px;
+    padding-top: 1rem;
+  }
+  .billede2_venstre_tema5 {
+    position: relative;
+    top: 20px;
+    background-color: #facfe1;
+  }
+  .p_tema5side2_1 {
+    position: relative;
+    top: 90px;
+    background-color: #facfe1;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 2rem;
+  }
+  .grid_tema5side2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #facfe1;
+    margin-left: -15px;
+    padding-bottom: 5rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    position: relative;
+    top: 210px;
+  }
+
+  .h2_tema5side2højre_1 {
+    position: relative;
+    top: 200px;
+    padding-left: 1rem;
+    background-color: #bababa;
+  }
+  .billede3_højre_tema5 {
+    position: relative;
+    top: 210px;
+    background-color: #bababa;
+    padding-bottom: 2rem;
+  }
+  .baggrundfarve_side2tema5 {
+    background-color: #bababa;
+  }
+  .h2_tema5side2højre_2 {
+    position: relative;
+    top: 210px;
+    padding-left: 1rem;
+  }
+  .billede4_højre_tema5 {
+    position: relative;
+    top: 210px;
+  }
+}
