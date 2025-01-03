@@ -219,6 +219,11 @@ h1 {
     text-align: center;
     width: fit-content;
     font-size: 3vw;
+    text-decoration: none;
+    color: #000000;
+  }
+  .h2_if_1 a {
+    text-decoration: none;
   }
   .h2_if_2 {
     position: relative;
@@ -251,6 +256,11 @@ h1 {
     text-align: center;
     width: fit-content;
     font-size: 3vw;
+  }
+
+  .billede_if {
+    position: relative;
+    top: 50px;
   }
 }
 
@@ -304,6 +314,10 @@ h1 {
     width: fit-content;
     font-size: 3vw;
   }
+  .billede_if {
+    position: relative;
+    top: 50px;
+  }
 }
 
 @media (min-width: 750px) {
@@ -355,6 +369,10 @@ h1 {
     text-align: center;
     width: fit-content;
     font-size: 2.5vw;
+  }
+  .billede_if {
+    position: relative;
+    top: 200px;
   }
 }
 
@@ -931,9 +949,12 @@ h1 {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
     padding: 20px;
     overflow: hidden;
+  }
+  .page_midt_tema3 {
     background-image: url(baggrunde/Baggrund_2.svg);
     aspect-ratio: 210 / 297;
   }
+
   .h1_tema3_side1 {
     position: relative;
     top: 220px;
