@@ -139,6 +139,284 @@ p {
 }
 
 /********** forside *******/
+@media (min-width: 300px) {
+  .magazine {
+    display: block;
+    gap: 13px;
+    padding: 20px;
+    height: 100vh;
+    align-items: center;
+    width: 100%;
+  }
+  .page_midt_forside {
+    width: 80mm;
+    height: 297mm;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    overflow: hidden;
+    background-image: url("billeder/forside_billede.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .h1_forside {
+    font-size: 3.5rem;
+    color: white;
+    top: -480px;
+    position: relative;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    text-align: center;
+    left: 280px;
+  }
+  .p_forside_1 {
+    font-size: 1.7rem;
+    color: white;
+    top: -430px;
+    position: relative;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    left: 100px;
+  }
+  .p_forside_2 {
+    font-size: 10rem;
+    color: #49f552;
+    top: 340px;
+    position: relative;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    left: 10px;
+  }
+  .p_forside_3 {
+    font-size: 2.5rem;
+    color: #49f552;
+    top: 440px;
+    position: relative;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    left: -100px;
+  }
+  .p_forside_4 {
+    font-size: 2rem;
+    color: #49f552;
+    top: 60px;
+    position: relative;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    left: -425px;
+  }
+  .p_forside_5 {
+    font-size: 2rem;
+    color: #49f552;
+    top: -15px;
+    position: relative;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    left: -380px;
+  }
+  .p_forside_6 {
+    font-size: 2.5rem;
+    color: #ffffff;
+    top: 90px;
+    position: relative;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    left: -490px;
+  }
+}
+
+@media (min-width: 600px) {
+  .magazine {
+    display: flex;
+    justify-content: center;
+    gap: 13px;
+    padding: 20px;
+    height: 100vh;
+    align-items: center;
+    aspect-ratio: 210 / 297;
+    width: 100%;
+  }
+  .page_midt_forside {
+    width: 130mm;
+    height: 297mm;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    overflow: hidden;
+    background-image: url("billeder/forside_billede.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .h1_forside {
+    font-size: 5.5rem;
+    color: white;
+    top: -480px;
+    position: relative;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    text-align: center;
+    left: 315px;
+  }
+
+  .p_forside_1 {
+    font-size: 2rem;
+    color: white;
+    top: -410px;
+    position: relative;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    left: 70px;
+  }
+  .p_forside_2 {
+    font-size: 13rem;
+    color: #49f552;
+    top: 340px;
+    position: relative;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    left: -40px;
+  }
+  .p_forside_3 {
+    font-size: 3rem;
+    color: #49f552;
+    top: 460px;
+    position: relative;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    left: -160px;
+  }
+  .p_forside_4 {
+    font-size: 2rem;
+    color: #49f552;
+    top: 60px;
+    position: relative;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    left: -655px;
+  }
+  .p_forside_5 {
+    font-size: 2rem;
+    color: #49f552;
+    top: -15px;
+    position: relative;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    left: -610px;
+  }
+  .p_forside_6 {
+    font-size: 2.5rem;
+    color: #ffffff;
+    top: 90px;
+    position: relative;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    left: -720px;
+  }
+}
+@media (min-width: 1000px) {
+  .magazine {
+    display: flex;
+    justify-content: center;
+    gap: 13px;
+    padding: 20px;
+    height: 100vh;
+    align-items: center;
+    aspect-ratio: 210 / 297;
+    width: 100%;
+  }
+  .page_midt_forside {
+    width: 165mm;
+    height: 297mm;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    overflow: hidden;
+    background-image: url("billeder/forside_billede.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .h1_forside {
+    font-size: 6.5rem;
+    color: white;
+    top: -300px;
+    position: relative;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    text-align: center;
+    left: 320px;
+  }
+
+  .p_forside_1 {
+    font-size: 2rem;
+    color: white;
+    top: -240px;
+    position: relative;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    left: 90px;
+  }
+
+  .p_forside_2 {
+    font-size: 13rem;
+    color: #49f552;
+    top: 340px;
+    position: relative;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    left: -40px;
+  }
+  .p_forside_3 {
+    font-size: 3rem;
+    color: #49f552;
+    top: 460px;
+    position: relative;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    left: -160px;
+  }
+  .p_forside_4 {
+    font-size: 2rem;
+    color: #49f552;
+    top: 60px;
+    position: relative;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    left: -765px;
+  }
+  .p_forside_5 {
+    font-size: 2rem;
+    color: #49f552;
+    top: -15px;
+    position: relative;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    left: -720px;
+  }
+  .p_forside_6 {
+    font-size: 2.5rem;
+    color: #ffffff;
+    top: 90px;
+    position: relative;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    left: -830px;
+  }
+}
 
 /****** indholdsfortegnelse ****/
 @media (min-width: 300px) {
@@ -1870,7 +2148,13 @@ p {
     top: 10px;
   }
   .billede1_tema5_forside {
-    width: 200px;
+    width: 150px;
+    padding-left: 2rem;
+  }
+
+  .page_midt_tema5 {
+    background-image: url(baggrunde/Baggrund_4.svg);
+    aspect-ratio: 210 / 297;
   }
 }
 

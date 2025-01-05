@@ -4,22 +4,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio forside</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <title>Portfolio - tema 2</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="layout.css">
 </head>
 
-
 <body>
-    <header></header>
-
-    <main class="main_forside">
-        <div id="magasin_forside">
-            <h1 class="h1_forside">Portfolio</h1>
+    <header>
+        <!-- Burger Menu Button - Chatgpt -->
+        <div class="burger-menu" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
         </div>
 
+        <!-- Dropdown Box - Chatgpt -->
+        <div class="menu-box" id="menuBox">
+            <ul>
+                <li><a href="index.html" class="active">FORSIDE</a></li>
+                <li><a href="indholdsfortegnelse.html">INDHOLDSFORTEGNELSE</a></li>
+                <li><a href="tema1_side1.html">TEMA 1 - INTRO</a></li>
+                <li><a href="tema2_side1.html">TEMA 2 - WEB</a></li>
+                <li><a href="tema3_side1.html">TEMA 3 - UX/UI</a></li>
+                <li><a href="tema4_side1.html">TEMA 4 - ANIMATION</a></li>
+                <li><a href="tema5_side1.html">TEMA 5 - INDHOLD</a></li>
+                <li><a href="om_mig.html">OM SOPHIA SPARSØ</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <div class="grid_pil">
+            <div class="magazine">
+                <div class="page_midt_forside">
+                    <div class="text-container">
+                        <h1 class="h1_forside">PORTFOLIO</h1>
+                    </div>
+                    <div class="text-container">
+                        <p class="p_forside_1">Sophiasparsoe.dk</p>
+                    </div>
+                    <div class="text-container">
+                        <p class="p_forside_2">5</p>
+                    </div>
+                    <div class="text-container">
+                        <p class="p_forside_3">Themes</p>
+                    </div>
+                    <div class="text-container">
+                        <p class="p_forside_4">Who</p>
+                        <p class="p_forside_5">is</p>
+                    </div>
+                    <div class="text-container">
+                        <p class="p_forside_6">Sophia<br> Sparsø?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="klik_knap">
+                <div class="tekst_pil">Read More</div>
+                <div class="pil"></div>
+            </div>
+        </div>
     </main>
 
+    <script src="menu.js"></script>
 </body>
+
 
 </html>
