@@ -139,67 +139,6 @@ p {
 }
 
 /********** forside *******/
-.main_forside {
-  margin: 0;
-  height: 100vh;
-  display: flex;
-  align-items: center; /* Centrerer vertikalt */
-  justify-content: center; /* Centrerer horisontalt */
-  font-family: Arial, sans-serif;
-}
-
-#magasin_forside {
-  width: 210mm;
-  height: 297mm;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-  box-sizing: border-box;
-  position: absolute;
-  background-image: url(billeder/forside_billede.png);
-  background-size: cover;
-  z-index: 1000;
-}
-
-h1 {
-  position: absolute;
-  top: 20px;
-}
-/* .magasin_forside {
-  position: relative;
-  background-color: white;
-} */
-
-.forside_billede {
-  background-image: url(billeder/forside_billede.png);
-  background-size: cover;
-  background-position: center;
-  width: 210mm;
-  height: 297mm;
-  position: relative;
-  z-index: 1;
-}
-
-.h1_forside {
-  position: absolute;
-  top: 20px;
-
-  color: white;
-}
-
-/* 
-@media (max-width: 768px) {
-  .forside_billede {
-    width: 100%; 
-    height: auto; 
-  }
-
-  .magazine-cover h1 {
-    font-size: 28px; 
-  }
-
-  .magazine-cover p {
-    font-size: 16px;
-  }
-} */
 
 /****** indholdsfortegnelse ****/
 @media (min-width: 300px) {
@@ -222,8 +161,11 @@ h1 {
     text-decoration: none;
     color: #000000;
   }
-  .h2_if_1 a {
+  .tema1_if a {
     text-decoration: none;
+  }
+  .h2_if_1:hover {
+    color: #49f552;
   }
   .h2_if_2 {
     position: relative;
@@ -232,6 +174,13 @@ h1 {
     text-align: center;
     width: fit-content;
     font-size: 3vw;
+    color: #000000;
+  }
+  .tema2_if a {
+    text-decoration: none;
+  }
+  .h2_if_2:hover {
+    color: #49f552;
   }
   .h2_if_3 {
     position: relative;
@@ -240,6 +189,13 @@ h1 {
     text-align: center;
     width: fit-content;
     font-size: 3vw;
+    color: #000000;
+  }
+  .tema3_if a {
+    text-decoration: none;
+  }
+  .h2_if_3:hover {
+    color: #49f552;
   }
   .h2_if_4 {
     position: relative;
@@ -248,6 +204,13 @@ h1 {
     text-align: center;
     width: fit-content;
     font-size: 3vw;
+    color: #000000;
+  }
+  .tema4_if a {
+    text-decoration: none;
+  }
+  .h2_if_4:hover {
+    color: #49f552;
   }
   .h2_if_5 {
     position: relative;
@@ -256,6 +219,13 @@ h1 {
     text-align: center;
     width: fit-content;
     font-size: 3vw;
+    color: #000000;
+  }
+  .tema5_if a {
+    text-decoration: none;
+  }
+  .h2_if_5:hover {
+    color: #49f552;
   }
 
   .billede_if {
@@ -1099,7 +1069,7 @@ h1 {
     top: 10px;
   }
   .billede1_tema3_forside {
-    width: 230px;
+    width: 160px;
   }
 }
 
