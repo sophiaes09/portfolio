@@ -107,6 +107,8 @@ p {
   font-size: 18px;
   cursor: pointer;
   border-radius: 5px;
+  position: absolute;
+  top: 500px;
 }
 
 .pil {
@@ -116,19 +118,11 @@ p {
   border-bottom: 10px solid transparent; /* Gennemsigtig bund */
   border-left: 10px solid black; /* Sort pil til venstre */
   margin-right: 30px; /* Afstand til teksten */
-}
-
-.tekst_pil {
-  font-size: 16px;
-  color: black;
-  font-family: "EB Garamond", serif;
+  padding-left: 1rem;
 }
 
 .pil:hover {
   border-left-color: gray; /* Ændrer pilens farve ved hover */
-}
-.tekst_pil:hover {
-  text-decoration: underline;
 }
 
 .grid_pil {
@@ -1214,6 +1208,11 @@ p {
     position: relative;
     top: 300px;
   }
+  .page_midt_tema2_side3 {
+    background-image: url(baggrunde/Baggrund_3.svg);
+    aspect-ratio: 210 / 297;
+    background-position: center 100px;
+  }
 }
 
 /******* tema 3 - side 1 ******/
@@ -2019,6 +2018,12 @@ p {
   .billede1_tema4_side3 {
     position: relative;
     top: 300px;
+  }
+
+  .page_midt_tema4_side3 {
+    background-image: url(baggrunde/Baggrund_3.svg);
+    aspect-ratio: 180 / 297;
+    background-position: center 100px;
   }
 }
 
@@ -3020,4 +3025,13 @@ p {
     text-align: center;
     padding-inline: 3rem;
   }
+}
+
+/******* java effekt - chatgpt ******/
+.page {
+  transform-origin: left center;
+  transition: transform 1s ease-in-out;
+}
+.page.flip {
+  transform: rotateY(-180deg);
 }

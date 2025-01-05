@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <title>Portfolio - tema 5</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="layout.css">
+</head>
+
+<body>
+    <header>
+        <nav class="menu">
+            <a href="tema5_side1.html" class="menu_punkt menu_tema5">INTRO</a>
+            <a href="tema5_side2.html" class="menu_punkt menu_tema5">DOKUMENTATION</a>
+            <a href="tema5_side3.html" class="menu_punkt active menu_tema5">FÆRDIGT PRODUKT</a>
+        </nav>
+
+        <!-- Burger Menu Button - Chatgpt -->
+        <div class="burger-menu" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+
+        <!-- Dropdown Box - Chatgpt -->
+        <div class="menu-box" id="menuBox">
+            <ul>
+                <li><a href="index.html">FORSIDE</a></li>
+                <li><a href="indholdsfortegnelse.html">INDHOLDSFORTEGNELSE</a></li>
+                <li><a href="tema1_side1.html" class="active">TEMA 1 - INTRO</a></li>
+                <li><a href="tema2_side1.html">TEMA 2 - WEB</a></li>
+                <li><a href="tema3_side1.html">TEMA 3 - UX/UI</a></li>
+                <li><a href="tema4_side1.html">TEMA 4 - ANIMATION</a></li>
+                <li><a href="tema5_side1.html">TEMA 5 - INDHOLD</a></li>
+                <li><a href="om_mig.html">OM SOPHIA SPARSØ</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <div class="grid_pil">
+            <div class="magazine">
+                <div class="page_left">
+                    <h1 class="h1_tema2_side1">Passionsite</h1>
+                    <div class="tema5_billedecenteret">
+                        <a href="http://sophiasparsoe.dk/kea/05_indhold/passionsite/">
+                            <img class="billede1_tema5_side3" src="billeder/tema5/passionsite.png" alt="hjemmeside"></a>
+                    </div>
+                </div>
+                <div class="page_right">
+                    <h1 class="h1_tema2_side1">Virksomhedsite</h1>
+                    <div class="tema5_billedecenteret">
+                        <a href="http://sophiasparsoe.dk/kea/05_indhold/virksomhedssite_rigtig/">
+                            <img class="billede2_tema5_side3" src="billeder/tema5/virksomhedssite.png"
+                                alt="hjemmeside"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="klik_knap">
+                <div class="tekst_pil">Read More</div>
+                <div class="pil"></div>
+            </div>
+        </div>
+    </main>
+
+    <script src="menu.js"></script>
+</body>
+
+</html>
