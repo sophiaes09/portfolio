@@ -99,19 +99,39 @@ p {
 }
 
 /******* pil - knap ********/
-.klik_knap {
+.to_knapper {
   display: flex;
-  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding-right: 4rem;
+}
+.klik_knap {
   align-items: center;
   justify-content: center;
   font-size: 18px;
   cursor: pointer;
   border-radius: 5px;
   position: absolute;
-  top: 500px;
+  top: 400px;
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+}
+.klik_knap2 {
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 5px;
+  position: absolute;
+  top: 470px;
+  display: block;
+  margin: 10px auto;
+  text-align: center;
 }
 
-.pil {
+.pil1 {
   width: 0;
   height: 0;
   border-top: 10px solid transparent; /* Gennemsigtig top */
@@ -119,10 +139,28 @@ p {
   border-left: 10px solid black; /* Sort pil til venstre */
   margin-right: 30px; /* Afstand til teksten */
   padding-left: 1rem;
+  position: absolute;
+  top: 0px;
+  left: -20px;
+}
+.pil2 {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent; /* Gennemsigtig top */
+  border-bottom: 10px solid transparent; /* Gennemsigtig bund */
+  border-right: 10px solid black; /* Sort pil til venstre */
+  margin-right: 30px; /* Afstand til teksten */
+  padding-left: 1rem;
+  position: absolute;
+  top: 0px;
+  left: -38px;
 }
 
-.pil:hover {
-  border-left-color: gray; /* Ændrer pilens farve ved hover */
+.tekst_pil {
+  color: #000000;
+}
+.tekst_pil:hover {
+  color: #f54990;
 }
 
 .grid_pil {
@@ -791,6 +829,291 @@ p {
   }
   .billede1_tema1_forside {
     width: 150px;
+  }
+}
+
+/********* tema 1 - side 2 *******/
+@media (min-width: 300px) and (max-width: 600px) {
+  .menu_tema1 {
+    margin: 0 30px;
+  }
+}
+@media (min-width: 300px) {
+  .magazine {
+    display: block;
+    width: 100%;
+  }
+  .page_left .page_right {
+    width: 100%;
+    height: auto;
+  }
+  .page_left .page_right {
+    width: 210mm;
+    height: 297mm;
+    background-color: white;
+    overflow: hidden;
+  }
+  .page_left {
+    border-right: 1px solid #ddd;
+    width: 80mm;
+    height: 190mm;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    padding-left: 1rem;
+  }
+  .page_right {
+    border-left: 1px solid #ddd;
+    width: 84mm;
+    height: 190mm;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  }
+  .page_right_color {
+    background-color: #f59bc0;
+  }
+
+  .h2_tema2side2venstre_1 {
+    position: relative;
+    top: 30px;
+    padding-right: 1rem;
+  }
+  .billede1_venstre_tema2 {
+    position: relative;
+    top: 50px;
+    padding-right: 1rem;
+  }
+  .h2_tema2side2venstre_2 {
+    position: relative;
+    top: 80px;
+    padding-right: 1rem;
+  }
+  .p_tema2side2_1 {
+    position: relative;
+    top: 90px;
+    padding-right: 1rem;
+  }
+  .billede2_venstre_tema2 {
+    position: relative;
+    top: 100px;
+    padding-right: 1rem;
+  }
+  .p_tema2side2_2 {
+    position: relative;
+    top: 120px;
+    padding-right: 1rem;
+  }
+  .grid_tema2side2venstre {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    top: 150px;
+    padding-right: 1rem;
+  }
+
+  .h2_tema2side2højre_1 {
+    position: relative;
+    top: 50px;
+    padding-left: 1rem;
+  }
+  .p_tema2side2højre_1 {
+    position: relative;
+    top: 60px;
+    padding-left: 1rem;
+  }
+  .billede3_højre_tema2 {
+    position: relative;
+    top: 70px;
+  }
+  .studiestartsprøven {
+    position: relative;
+    top: 120px;
+    padding-left: 1rem;
+  }
+}
+
+@media (min-width: 600px) {
+  .magazine {
+    display: block;
+    width: 100%;
+  }
+  .page_left .page_right {
+    width: 100%;
+    height: auto;
+  }
+  .page_left .page_right {
+    width: 210mm;
+    height: 297mm;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    overflow: hidden;
+  }
+  .page_left {
+    border-right: 1px solid #ddd; /* Skab visuel adskillelse */
+    width: 130mm;
+    height: 210mm;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    padding-left: 1rem;
+  }
+  .page_right {
+    border-left: 1px solid #ddd; /* Skab visuel adskillelse */
+    width: 130mm;
+    height: 210mm;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  }
+  .page_right_color {
+    background-color: #f59bc0;
+  }
+
+  .h2_tema2side2venstre_1 {
+    position: relative;
+    top: 30px;
+    padding-right: 1rem;
+  }
+  .billede1_venstre_tema2 {
+    position: relative;
+    top: 50px;
+    padding-right: 1rem;
+  }
+  .h2_tema2side2venstre_2 {
+    position: relative;
+    top: 80px;
+    padding-right: 1rem;
+  }
+  .p_tema2side2_1 {
+    position: relative;
+    top: 90px;
+    padding-right: 1rem;
+  }
+  .billede2_venstre_tema2 {
+    position: relative;
+    top: 100px;
+    padding-right: 1rem;
+  }
+  .p_tema2side2_2 {
+    position: relative;
+    top: 120px;
+    padding-right: 1rem;
+  }
+  .grid_tema2side2venstre {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    top: 150px;
+    padding-right: 1rem;
+  }
+
+  .h2_tema2side2højre_1 {
+    position: relative;
+    top: 50px;
+    padding-left: 1rem;
+  }
+  .p_tema2side2højre_1 {
+    position: relative;
+    top: 60px;
+    padding-left: 1rem;
+  }
+  .billede3_højre_tema2 {
+    position: relative;
+    top: 70px;
+  }
+  .studiestartsprøven {
+    position: relative;
+    top: 120px;
+    padding-left: 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .magazine {
+    display: flex;
+    justify-content: center;
+    gap: 13px;
+    padding: 20px;
+    height: 100vh;
+    align-items: center;
+    aspect-ratio: 210 / 297;
+    width: 100%;
+  }
+  .page_left .page_right {
+    width: 210mm;
+    height: 297mm;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    overflow: hidden;
+  }
+  .page_left {
+    border-right: 1px solid #ddd; /* Skab visuel adskillelse */
+    width: 165mm;
+    height: 297mm;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    padding-left: 1rem;
+  }
+  .page_right {
+    border-left: 1px solid #ddd; /* Skab visuel adskillelse */
+    width: 165mm;
+    height: 297mm;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  }
+  .page_right_color {
+    background-color: #f59bc0;
+  }
+
+  .h2_tema2side2venstre_1 {
+    position: relative;
+    top: 200px;
+    padding-right: 1rem;
+  }
+  .billede1_venstre_tema2 {
+    position: relative;
+    top: 220px;
+    padding-right: 1rem;
+  }
+  .h2_tema2side2venstre_2 {
+    position: relative;
+    top: 280px;
+    padding-right: 1rem;
+  }
+  .p_tema2side2_1 {
+    position: relative;
+    top: 290px;
+    padding-right: 1rem;
+  }
+  .billede2_venstre_tema2 {
+    position: relative;
+    top: 320px;
+    padding-right: 1rem;
+  }
+  .p_tema2side2_2 {
+    position: relative;
+    top: 350px;
+    padding-right: 1rem;
+  }
+  .grid_tema2side2venstre {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    top: 360px;
+    padding-right: 1rem;
+  }
+
+  .h2_tema2side2højre_1 {
+    position: relative;
+    top: 200px;
+    padding-left: 1rem;
+  }
+  .p_tema2side2højre_1 {
+    position: relative;
+    top: 230px;
+    padding-left: 1rem;
+  }
+  .billede3_højre_tema2 {
+    position: relative;
+    top: 280px;
+  }
+  .studiestartsprøven {
+    position: relative;
+    top: 380px;
+    padding-left: 1rem;
   }
 }
 
