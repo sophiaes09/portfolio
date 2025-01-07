@@ -2942,7 +2942,7 @@ p {
   .page_right_ommig {
     border-left: 1px solid #ddd;
     width: 84mm;
-    height: 290mm;
+    height: 360mm;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
   }
 
@@ -3067,7 +3067,7 @@ p {
   .page_right_ommig {
     border-left: 1px solid #ddd; /* Skab visuel adskillelse */
     width: 134mm;
-    height: 230mm;
+    height: 260mm;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
   }
   .page_right_color_ommig {
@@ -3329,7 +3329,7 @@ p {
   }
 
   .h1_ommig {
-    font-size: 2rem;
+    font-size: 2.3rem;
     position: relative;
     top: 500px;
     left: 150px;
@@ -3421,7 +3421,7 @@ p {
   }
   .centeret_jobs {
     position: relative;
-    top: 240px;
+    top: 210px;
     text-align: center;
     padding-inline: 3rem;
   }

@@ -1,3 +1,9 @@
+/* Min oprindelige plan med min side, var at inplimentere en animation på funktionsknappen, 
+når skifter fra den ene html side til den anden html side (Read more, Read less).
+Dette viste sig hurtigt at være meget sværre end jeg troede - nedenfor har jeg fået Chatgpt til at prøve at hjælpe mig.
+Animation endte med at virke på side 1 til 2, men opførte sig derefter utroligt mærkeligt på de andre sider.
+Derfor har jeg valgt at droppe animationen.*/
+
 const button = document.getElementById("klik_knap");
 const currentPage = window.location.pathname.split("/").pop(); // Få nuværende side (f.eks. "side2.html")
 
